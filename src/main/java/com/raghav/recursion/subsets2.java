@@ -18,7 +18,7 @@ public class subsets2 {
             }
             cur.add(nums[j]);
             solve(cur, j + 1, nums);
-            cur.remove(cur.size() - 1);
+            cur.removeLast();
 
         }
     }

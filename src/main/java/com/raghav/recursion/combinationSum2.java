@@ -36,7 +36,7 @@ public class combinationSum2 {
 
             solve(candidates, target, current, j + 1);
 
-            current.remove(current.size() - 1);
+            current.removeLast();
         }
     }
 

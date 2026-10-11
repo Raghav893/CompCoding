@@ -24,10 +24,9 @@ class combinationSum {
     }
 
     int sum(List<Integer> current) {
-        int sum = current.stream()
+        return current.stream()
                 .mapToInt(Integer::intValue)
                 .sum();
-        return sum;
     }
 
     public static void main(String[] args) {
